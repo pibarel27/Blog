@@ -5,6 +5,7 @@ import Blog from './components/Blog';
 import PostDetail from './components/PostDetail';
 import Footer from './components/Footer';
 import Thesis from './components/Pages/Thesis';
+import Notes from './components/Pages/Notes';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<Blog />} />
             <Route path="/post/:id" element={<PostDetail />} />
             <Route path="/Thesis" element={<Thesis />} />
+            <Route path="/Notes" element={<Notes />} />
           </Routes>
         </div>
         <Footer />
