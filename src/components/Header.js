@@ -23,11 +23,11 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-gray-500 p-4 text-white flex items-center relative">
+    <header className="bg-gray-800 p-4 text-white flex items-center relative">
       <div className="relative inline-block text-left">
         <button
           onClick={toggleDropdown}
-          className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
+          className="inline-flex justify-center w-full rounded-md border border-gray-600 shadow-sm px-4 py-2 bg-gray-700 text-sm font-medium text-white hover:bg-gray-600 focus:outline-none"
         >
           Menu
           <svg
@@ -47,7 +47,7 @@ const Header = () => {
         {isDropdownOpen && (
           <div
             ref={dropdownRef}
-            className="origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+            className="origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-gray-700 ring-1 ring-black ring-opacity-5 focus:outline-none"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
@@ -55,7 +55,7 @@ const Header = () => {
             <div className="py-1" role="none">
               <Link
                 to="/thesis"
-                className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                className="text-white block px-4 py-2 text-sm hover:bg-gray-600"
                 role="menuitem"
                 onClick={() => setDropdownOpen(false)}
               >
@@ -63,7 +63,7 @@ const Header = () => {
               </Link>
               <Link
                 to="/notes"
-                className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                className="text-white block px-4 py-2 text-sm hover:bg-gray-600"
                 role="menuitem"
                 onClick={() => setDropdownOpen(false)}
               >

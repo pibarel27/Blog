@@ -1,11 +1,9 @@
-// Notes.js
 import React from 'react';
-
 const notesData = [
   {
     title: 'Research Notes',
     description: 'Key research findings and summaries.',
-    link: 'https://example.com/research-notes',
+    link: 'DSA.pdf',
   },
   {
     title: 'Development Notes',

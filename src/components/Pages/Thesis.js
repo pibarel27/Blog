@@ -24,7 +24,7 @@ const ThesisCard = ({ title, abstract, authors, guide, university, link }) => (
       rel="noopener noreferrer" 
       className="block mt-4 text-blue-600 hover:underline"
     >
-      Read More
+      Learn More
     </a>
   </div>
 );
