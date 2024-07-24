@@ -1,19 +1,20 @@
 import React from 'react';
+
 const notesData = [
   {
-    title: 'Research Notes',
-    description: 'Key research findings and summaries.',
-    link: 'DSA.pdf',
+    title: 'C Complete Notes',
+    description: 'C programming is a powerful, general-purpose language that has influenced many other languages. It is known for its performance and close interaction with hardware.',
+    link: '/Notes/C.pdf', 
   },
   {
     title: 'Development Notes',
     description: 'Notes on the development process and techniques.',
-    link: 'https://example.com/development-notes',
+    link: '/uploads/development-notes.pdf',
   },
   {
     title: 'References',
     description: 'References and additional resources.',
-    link: 'https://example.com/references',
+    link: '/uploads/references.pdf',
   },
 ];
 
@@ -32,8 +33,12 @@ const Notes = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
+                onClick={(e) => {
+                  // Debugging: Log the link to ensure it's correct
+                  console.log(`Opening PDF: ${note.link}`);
+                }}
               >
-                View More
+                View PDF
               </a>
             </div>
           </div>

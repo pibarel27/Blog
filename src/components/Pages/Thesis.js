@@ -39,14 +39,14 @@ const ThesisList = () => {
       university: "Manipur Technical University",
       link: "https://www.slideshare.net/slideshow/development-of-chatbot-using-ai-ml-technologies-under-the-guidance-of-mr-chiranjiv-chinganbam-assistant-professor-manipur-technical-university/270010951" 
     },
-    {
+    /*{
       title: "Another Thesis Title",
       abstract: "This is an abstract for another thesis. It covers different technologies or methods and presents the research findings and implementation details.",
       authors: "Author One\nAuthor Two",
       guide: "Guide Name",
       university: "Another University",
       link: "https://example.com/thesis2" 
-    },
+    },*/
     
   ];
 
