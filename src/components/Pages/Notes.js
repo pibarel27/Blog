@@ -4,17 +4,17 @@ const notesData = [
   {
     title: 'C Complete Notes',
     description: 'C programming is a powerful, general-purpose language that has influenced many other languages. It is known for its performance and close interaction with hardware.',
-    link: '/Notes/C.pdf', 
+    link: 'https://drive.google.com/file/d/1Bp54hmJIWBIXZt_YbuDQaorz308Ko4Vo/view?usp=sharing', 
   },
   {
-    title: 'Development Notes',
+    title: 'JavaScript Notes',
     description: 'Notes on the development process and techniques.',
-    link: '/uploads/development-notes.pdf',
+    link: 'https://drive.google.com/file/d/1CaEj5Wjm2JcW7C1knmJzQvtmln82lE5g/view?usp=sharing',
   },
   {
-    title: 'References',
+    title: 'Sql',
     description: 'References and additional resources.',
-    link: '/uploads/references.pdf',
+    link: 'https://drive.google.com/file/d/1VYHM1C2NmUqA4zkNGgW-__vTSD_SUojf/view?usp=sharing',
   },
 ];
 
