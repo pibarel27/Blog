@@ -34,7 +34,6 @@ const Notes = () => {
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
                 onClick={(e) => {
-                  // Debugging: Log the link to ensure it's correct
                   console.log(`Opening PDF: ${note.link}`);
                 }}
               >
